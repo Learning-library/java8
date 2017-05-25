@@ -20,7 +20,7 @@ public class Main {
 
         Apple apple1 = new Apple();
         apple1.setWeoght("20");
-        apple1.setColor("green");
+        apple1.setColor("test");
 
         apples.add(apple);
         apples.add(apple1);
