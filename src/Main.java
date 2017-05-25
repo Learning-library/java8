@@ -24,6 +24,7 @@ public class Main {
 
         apples.add(apple);
         apples.add(apple1);
+        apples.add(apple1);
 
 
         apples.sort(Comparator.comparing(Apple::getWeoght).reversed());
