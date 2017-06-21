@@ -1,16 +1,14 @@
 import domain.Apple;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Random;
+
+import static java.util.Comparator.comparing;
 
 public class Main {
 
-//http://www.jianshu.com/p/5b800057f2d8
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("测试java8比较苹果重量");
 
         ArrayList<Apple> apples = new ArrayList<>();
 
@@ -26,9 +24,11 @@ public class Main {
         apples.add(apple1);
 
 
-        apples.sort(Comparator.comparing(Apple::getWeoght).reversed());
+        apples.sort(comparing(Apple::getWeoght).reversed());//倒序
 
-        apples.forEach(apple2 -> System.out.println(apple2.getWeoght()));
+        apples.stream().forEach(apple2 -> {
+            System.out.println(apple2.getWeoght());
+        });
 
     }
 }
