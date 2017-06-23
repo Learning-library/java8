@@ -1,3 +1,5 @@
+package o1;
+
 import domain.Status;
 import domain.Task;
 import org.junit.Test;

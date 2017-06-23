@@ -1,3 +1,5 @@
+package o1;
+
 import domain.Apple;
 
 import java.util.ArrayList;
