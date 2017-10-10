@@ -1,4 +1,4 @@
-package p22;
+package p2.p22;
 
 import java.util.function.Supplier;
 

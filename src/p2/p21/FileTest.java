@@ -1,4 +1,4 @@
-package p21;
+package p2.p21;
 
 import org.junit.Test;
 

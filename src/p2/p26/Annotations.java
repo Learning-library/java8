@@ -1,4 +1,4 @@
-package p26;
+package p2.p26;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

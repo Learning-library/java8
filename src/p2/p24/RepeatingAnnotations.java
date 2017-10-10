@@ -1,4 +1,4 @@
-package p24;
+package p2.p24;
 
 import java.lang.annotation.*;
 
